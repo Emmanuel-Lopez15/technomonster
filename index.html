@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technomonsters, Inc.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+  <header>
+    <a href="#" class="logo">
+      <img src="img/logo-technomonsters.jpg" alt="Logo Technomonsters">
+      <span>Technomonsters, iNc.</span>
+    </a>
+
+
+    <!-- Botón de menú para móviles -->
+    <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">
+      ☰
+    </button>
+
+
+
+
+    <!-- MENUS Y SUBMENUS -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <!-- Submenu de Nuestros Procesos -->
+        <li class="submenu-parent">
+          <a href="#procesos">Procesos <i class="fa fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li class="submenu-parent">
+              <a href="#planeacion">Planeación <i class="fa fa-caret-right"></i></a>
+              <ul class="submenu">
+                <li><a href="#planeacion-rh">Humano</a></li>
+                <li><a href="#planeacion-rf">Financiero</a></li>
+                <li><a href="#planeacion-rm">Material</a></li>
+                <li><a href="#planeacion-rt">Tecnológico</a></li>
+                <li><a href="#planeacion-ri">Información</a></li>
+              </ul>
+            </li>
+
+            <li class="submenu-parent">
+              <a href="#organizacion">Organización <i class="fa fa-caret-right"></i></a>
+              <ul class="submenu">
+                <li><a href="#organizacion-rh">Humano</a></li>
+                <li><a href="#organizacion-rf">Financiero</a></li>
+                <li><a href="#organizacion-rm">Material</a></li>
+                <li><a href="#organizacion-rt">Tecnológico</a></li>
+                <li><a href="#organizacion-ri">Información</a></li>
+              </ul>
+            </li>
+
+            <li class="submenu-parent">
+              <a href="#direccion">Dirección <i class="fa fa-caret-right"></i></a>
+              <ul class="submenu">
+                <li><a href="#direccion-rh">Humano</a></li>
+                <li><a href="#direccion-rf">Financiero</a></li>
+                <li><a href="#direccion-rm">Material</a></li>
+                <li><a href="#direccion-rt">Tecnológico</a></li>
+                <li><a href="#direccion-ri">Información</a></li>
+              </ul>
+            </li>
+
+            <li class="submenu-parent">
+              <a href="#control">Control <i class="fa fa-caret-right"></i></a>
+              <ul class="submenu">
+                <li><a href="#control-rh">Humano</a></li>
+                <li><a href="#control-rf">Financiero</a></li>
+                <li><a href="#control-rm">Material</a></li>
+                <li><a href="#control-rt">Tecnológico</a></li>
+                <li><a href="#control-ri">Información</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <!--<li><a href="#contacto">Contacto</a></li>-->
+        <!--<li><a href="#login" class="btn-login">Login</a></li>-->
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+  <!-- PAGINA PRINCIPAL -->
+  <main>
+
+    <!-- SLOGAN DE LA PAGINA -->
+    <section class="video-fondo">
+      <video autoplay muted loop playsinline class="fondo-video">
+        <source src="img/monsters-bg.mp4" type="video/mp4">
+        Tu navegador no soporta video HTML5.
+      </video>
+      <div class="contenido-video">
+        <p>VOz que Genera, eNergia qUe traNsfOrma</p>
+      </div>
+    </section>
+
+
+
+
+    <!-- SECCION DE FILOSOFIA EMPRESARIAL -->
+    <div id="nosotros" class="container">
+      <h2 class="titulo-seccion">Sobre Nosotros</h2>
+      <div class="swiper-container">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/01.webp" alt="">
+            <div class="card-description">
+              <div class="card-title">
+                <h4>Misión</h4>
+              </div>
+              <div class="card-text">
+                <p>Desarrollar soluciones tecnológicas que transformen el sonido de la voz en energía limpia</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <img src="img/02.jpg" alt="">
+            <div class="card-description">
+              <div class="card-title">
+                <h4>Visión</h4>
+              </div>
+              <div class="card-text">
+                <p>Ser líderes en soluciones energéticas basadas en sonido humano, construyendo un futuro
+                  donde cada voz impulse un mundo más justo, ecológico y conectado.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/03.avif" alt="Valores de la empresa">
+            <div class="card-description">
+              <div class="card-title">
+                <h4>Valores</h4>
+              </div>
+              <div class="card-text scrollable-text">
+                <p>
+                  Innovación: Con sentido humano usamos la tecnología para transformar la voz en energía limpia.<br>
+                  Transparencia y ética energética: Operamos con honestidad, respeto por las personas y con
+                  responsabilidad hacia las futuras generaciones.<br>
+                  Excelencia: La búsqueda de la excelencia desde la calidad de los productos hasta la experiencia del
+                  cliente es importante para destacar en el mercado.<br>
+                  Concientización energética: Fomentamos el uso responsable de la energía y el poder de la voz como
+                  agente de cambio sostenible.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/04.jpg" alt="">
+            <div class="card-description">
+              <div class="card-title">
+                <h4>Políticas y Normas Éticas</h4>
+              </div>
+              <div class="card-text">
+                <p>Integridad personal y profesional. Actuar con honestidad y responsabilidad en todas las
+                  actividades.<br>
+                  Confidencialidad: Proteger la información confidencial de la empresa, socios y usuarios.<br>
+                  Principios Globales de Impuestos: Guiar la estrategia fiscal de la empresa para asegurando el
+                  cumplimiento
+                  y
+                  la transparencia.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+                  Anticorrupción: Prohíbir sobornos y prácticas corruptas.<br>
+                  Cumplimiento de la ley: Asegurar que la empresa y sus empleados cumplan con todas las leyes y
+                  regulaciones
+                  aplicables. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECCION DE NUESTROS PROCESOS -->
+      <section id="procesos">
+        <h2 class="titulo-seccion">Nuestro Proceso</h2>
+        <!-- SECCION DE PLANEACION -->
+        <div class="proceso" id="planeacion">
+          <h3>Planeación</h3>
+
+          <!-- Recurso Humano -->
+          <div id="planeacion-rh" class="recurso-anchor">
+            <h4><i class="fa fa-users"></i> Recurso Humano</h4>
+            <div class="carrusel">
+              <button class="prev" onclick="moverCarrusel(-1)">❮</button>
+              <img class="carrusel-img" src="img/42.png" alt="Carrusel 1" style="display:block;">
+              <img class="carrusel-img" src="img/43.png" alt="Carrusel 2" style="display:none;">
+              <img class="carrusel-img" src="img/44.png" alt="Carrusel 3" style="display:none;">
+              <img class="carrusel-img" src="img/45.png" alt="Carrusel 4" style="display:none;">
+              <img class="carrusel-img" src="img/46.png" alt="Carrusel 5" style="display:none;">
+              <img class="carrusel-img" src="img/47.png" alt="Carrusel 6" style="display:none;">
+              <img class="carrusel-img" src="img/48.png" alt="Carrusel 7" style="display:none;">
+              <img class="carrusel-img" src="img/49.png" alt="Carrusel 8" style="display:none;">
+              <button class="next" onclick="moverCarrusel(1)">❯</button>
+            </div>
+          </div>
+
+          <!-- Recurso Financiero -->
+          <div id="planeacion-rf" class="recurso-anchor">
+            <h4><i class="fa fa-dollar-sign"></i> Recurso Financiero</h4>
+            <p>El presupuesto anual de $50,000,000 MXN para Technomonster, Inc. está diseñado para garantizar el
+              desarrollo sostenible, tecnológico y operativo de la empresa. Dada nuestra misión, se prioriza la
+              inversión en Investigación y Desarrollo (I&D), así como en todos los departamentos para asegurar un equipo
+              altamente capacitado y comprometido.<br>
+              El resto del presupuesto se distribuye estratégicamente en áreas clave como tecnologías de la información,
+              mercadotecnia, finanzas, mantenimiento y reservas para imprevistos, asegurando una operación eficiente,
+              innovadora y adaptable al crecimiento del mercado.
+            </p>
+          </div>
+
+          <!-- Recurso Material -->
+          <div id="planeacion-rm" class="recurso-anchor">
+            <h4><i class="fa fa-cubes"></i> Recurso Material</h4>
+            <p>Desde el ingreso a TechnoMonsters Inc., se contempla una infraestructura funcional, moderna y
+              tecnológicamente avanzada. En la entrada, el área de recepción cuenta con mobiliario básico como
+              escritorio, sillas para visitantes, pantallas informativas, computadoras, teléfonos, intercomunicador y un
+              sistema de identificación por voz. Este último recurso permite un acceso moderno y seguro, alineado con el
+              concepto tecnológico de la empresa. <br><br>
+
+              En las instalaciones se encuentran laboratorios acústicos, áreas técnicas para el desarrollo de
+              tecnologías de recolección de energía sonora, oficinas administrativas, salas de juntas, espacios
+              creativos y estaciones de trabajo digitalizadas. Cada espacio ha sido planeado para facilitar las tareas
+              específicas de cada departamento, integrando tanto tecnología especializada como mobiliario funcional.
+              <br><br>
+
+              Se dispone de laboratorios con cámaras anecoicas y medidores de decibeles, estaciones de ingeniería con
+              herramientas electrónicas, áreas de desarrollo con computadoras de alto rendimiento, y zonas operativas
+              con vehículos y equipos móviles para recolección en campo. Además, las oficinas administrativas cuentan
+              con proyectores, escritorios, archiveros y sistemas de gestión digital. <br><br>
+
+              También se incluyen bodegas con materiales de mantenimiento, cuartos seguros para documentación legal,
+              estaciones de limpieza bien equipadas, y centros de datos que sostienen la operación digital de toda la
+              empresa. Todo esto ha sido planeado para garantizar una operación fluida, segura y eficiente, acorde con
+              el objetivo central de la organización: transformar la energía de la voz humana en energía útil.
+            </p>
+          </div>
+
+          <!-- Recurso Tecnológico -->
+          <div id="planeacion-rt" class="recurso-anchor">
+            <h4><i class="fa fa-microchip"></i> Recurso Tecnológico</h4>
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Recurso</th>
+                  <th>Descripción</th>
+                </tr>
+                <tr>
+                  <td>Sensores de audio o dispositivos inteligentes</td>
+                  <td>Captan la voz para transformarla en energía, recolectando volumen, frecuencia y duración.</td>
+                </tr>
+                <tr>
+                  <td>Plataforma web</td>
+                  <td>Permite a los clientes conocer la empresa, consultar servicios y acceder a su cuenta.</td>
+                </tr>
+                <tr>
+                  <td>Sistema de análisis de datos</td>
+                  <td>Procesa datos de voz, consumo y comportamiento para generar reportes y visualizaciones.</td>
+                </tr>
+                <tr>
+                  <td>Servidor en la nube</td>
+                  <td>Almacena datos operativos e información sensible de forma segura.</td>
+                </tr>
+                <tr>
+                  <td>Sistema de gestión interna</td>
+                  <td>Administra operaciones, clientes, facturación y soporte técnico de la empresa.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Recurso Información -->
+          <div id="planeacion-ri" class="recurso-anchor">
+            <h4><i class="fa fa-info-circle"></i> Recurso Información</h4>
+
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Número institucional (central telefónica):</th>
+                  <th>+52 55 1234 5678</th>
+                </tr>
+              </table>
+            </div>
+
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Departamento</th>
+                  <th>Responsable</th>
+                  <th>Extensión</th>
+                  <th>Correo</th>
+                </tr>
+                <tr>
+                  <td>Recursos Humanos</td>
+                  <td>Rubí Cobos</td>
+                  <td>101</td>
+                  <td>rrhh@technomonster.com</td>
+                </tr>
+                <tr>
+                  <td>Mercadotecnia</td>
+                  <td>Ingridh Gracia</td>
+                  <td>102</td>
+                  <td>mercadotecnia@technomonster.com</td>
+                </tr>
+                <tr>
+                  <td>TIC’s</td>
+                  <td>Veyra Gutiérrez</td>
+                  <td>103</td>
+                  <td>tics@technomonster.com</td>
+                </tr>
+                <tr>
+                  <td>Finanzas</td>
+                  <td>Olivia Wilson</td>
+                  <td>104</td>
+                  <td>finanzas@technomonster.com</td>
+                </tr>
+                <tr>
+                  <td>Jurídico</td>
+                  <td>Reese Miller</td>
+                  <td>105</td>
+                  <td>juridico@technomonster.com</td>
+                </tr>
+                <tr>
+                  <td>Mantenimiento</td>
+                  <td>Jhon Miller</td>
+                  <td>106</td>
+                  <td>mantenimiento@technomonster.com</td>
+                </tr>
+                <tr>
+                  <td>Innovación y Desarrollo</td>
+                  <td>Elon Musk</td>
+                  <td>107</td>
+                  <td>innovacion@technomonster.com</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Medio digital de comunicación</th>
+                  <th>Uso principal</th>
+                  <th>Acceso</th>
+                </tr>
+                <tr>
+                  <td>Microsoft Teams</td>
+                  <td>Reuniones internas y videollamadas</td>
+                  <td>Todos los departamentos</td>
+                </tr>
+                <tr>
+                  <td>Outlook</td>
+                  <td>Correo electrónico y calendario de actividades</td>
+                  <td>Todos los departamentos</td>
+                </tr>
+                <tr>
+                  <td>WhatsApp Business</td>
+                  <td>Comunicación rápida e informal entre departamentos</td>
+                  <td>Sólo personal autorizado</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- Sección de Organización -->
+        <div class="proceso" id="organizacion">
+          <h3>Organización</h3>
+
+          <!-- Recurso Humano -->
+          <div id="organizacion-rh" class="recurso-anchor">
+            <h4><i class="fa fa-users"></i> Recurso Humano</h4>
+            <p>Con el fin de garantizar un servicio continuo y eficiente, el Departamento de Tecnologías de la
+              Información y Comunicación (TIC’s) opera en dos turnos principales, cubriendo la atención técnica, soporte
+              y desarrollo durante toda la jornada laboral de la empresa.</p>
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Turno</th>
+                  <th>Nombre</th>
+                  <th>Puesto</th>
+                </tr>
+                <tr>
+                  <td>Matutino<br><small>(08:00 a.m. – 2:00 p.m.)</small></td>
+                  <td>Avery Davis</td>
+                  <td>Técnica en Redes</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Matt Zhang</td>
+                  <td>Técnico de Soporte</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Lars Peeters</td>
+                  <td>Desarrollador de Frontend</td>
+                </tr>
+                <tr>
+                  <td>Vespertino<br><small>(2:00 p.m. – 8:00 p.m.)</small></td>
+                  <td>Neil Train</td>
+                  <td>Técnico en Telecomunicaciones</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Cahaya Dewi</td>
+                  <td>Técnica de Seguridad Informática</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Olivia Wilson</td>
+                  <td>Desarrolladora de Backend</td>
+                </tr>
+                <tr>
+                  <td>Flexible (Supervisión General)</td>
+                  <td>Veyra Gutiérrez</td>
+                  <td>Directora General de TIC’s</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Claudia Alves</td>
+                  <td>Jefa de Redes y Telecomunicaciones</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Bailey Dupont</td>
+                  <td>Jefe de Soporte Técnico</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Reese Miller</td>
+                  <td>Jefe de Desarrollo de Software</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Recurso Financiero -->
+          <div id="organizacion-rf" class="recurso-anchor">
+            <h4><i class="fa fa-dollar-sign"></i> Recurso Financiero</h4>
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Departamento</th>
+                  <th>Monto Asignado (MXN)</th>
+                  <th>% del total</th>
+                </tr>
+                <tr>
+                  <td>Recursos Humanos</td>
+                  <td>$9,000,000</td>
+                  <td>18%</td>
+                </tr>
+                <tr>
+                  <td>Inovación y Desarrollo (I&D)</td>
+                  <td>$18,000,000</td>
+                  <td>36%</td>
+                </tr>
+                <tr>
+                  <td>Mercadotecnia</td>
+                  <td>$11,000,000</td>
+                  <td>22%</td>
+                </tr>
+                <tr>
+                  <td>Finanzas</td>
+                  <td>$2,500,000</td>
+                  <td>5%</td>
+                </tr>
+                <tr>
+                  <td>Mantenimiento</td>
+                  <td>$2,500,000</td>
+                  <td>5%</td>
+                </tr>
+                <tr>
+                  <td>TICs (Tecnologías de la Información)</td>
+                  <td>$3,500,000</td>
+                  <td>7%</td>
+                </tr>
+                <tr>
+                  <td>Jurídico</td>
+                  <td>$1,000,000</td>
+                  <td>2%</td>
+                </tr>
+                <tr>
+                  <td>Fondo de reserva e imprevistos</td>
+                  <td>$2,500,000</td>
+                  <td>5%</td>
+                </tr>
+                <tr>
+                  <td><strong>Total General</strong></td>
+                  <td><strong>$50,000,000</strong></td>
+                  <td><strong>100%</strong></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Recurso Material -->
+          <div id="organizacion-rm" class="recurso-anchor">
+            <h4><i class="fa fa-cubes"></i> Recurso Material</h4>
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Departamento</th>
+                  <th>Recurso Material</th>
+                  <th>Cantidad</th>
+                </tr>
+                <!-- ... (tablas completas por departamento como ya estaban) ... -->
+                <tr>
+                  <td>Innovación y Desarrollo</td>
+                  <td>Mobiliario técnico</td>
+                  <td>5 estaciones</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Recurso Tecnológico -->
+          <div id="organizacion-rt" class="recurso-anchor">
+            <h4><i class="fa fa-microchip"></i> Recurso Tecnológico</h4>
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Departamento</th>
+                  <th>Recurso Tecnológico</th>
+                </tr>
+                <tr>
+                  <td>Innovación y Desarrollo</td>
+                  <td>XinVoices: sistema operativo que sincroniza los dispositivos recolectores de voz.</td>
+                </tr>
+                <tr>
+                  <td>Innovación y Desarrollo</td>
+                  <td>EchoMetrics AI: plataforma de análisis predictivo de datos de voz y consumo.</td>
+                </tr>
+                <tr>
+                  <td>TIC’s</td>
+                  <td>MonsterPortal UX: sitio web interactivo para clientes y usuarios.</td>
+                </tr>
+                <tr>
+                  <td>TIC’s</td>
+                  <td>CloudRoar Vault: almacenamiento en la nube con cifrado de alta seguridad.</td>
+                </tr>
+                <tr>
+                  <td>RH - Finanzas - Jurídico</td>
+                  <td>ScreamFlow ERP: plataforma integral que coordina clientes, facturación, soporte y gestión interna.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mercadotecnia</td>
+                  <td>VisualForge Studio: herramienta para diseño y gestión de identidad visual.</td>
+                </tr>
+                <tr>
+                  <td>Mantenimiento</td>
+                  <td>CoreShield MX: sistema que supervisa dispositivos, emite alertas y programa mantenimientos.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Recurso Información -->
+          <div id="organizacion-ri" class="recurso-anchor">
+            <h4><i class="fa fa-info-circle"></i> Recurso Información</h4>
+            <div class="table-wrapper">
+              <table class="table">
+                <tr>
+                  <th>Comunicación</th>
+                  <th>Medio</th>
+                  <th>Frecuencia</th>
+                  <th>Responsable</th>
+                  <th>Observaciones</th>
+                </tr>
+                <tr>
+                  <td>Reportes de avance</td>
+                  <td>Outlook + Intranet</td>
+                  <td>Semanal (viernes)</td>
+                  <td>Cada director/a</td>
+                  <td>Reportes suben a Intranet y se notifica por correo</td>
+                </tr>
+                <tr>
+                  <td>Reuniones interdepartamentales</td>
+                  <td>Teams</td>
+                  <td>Cada lunes 9:00 AM</td>
+                  <td>Veyra Gutiérrez (TIC's)</td>
+                  <td>Coordina la conexión y logística</td>
+                </tr>
+                <tr>
+                  <td>Urgencias o incidencias</td>
+                  <td>WhatsApp Business</td>
+                  <td>Inmediato</td>
+                  <td>Director/a del área</td>
+                  <td>Sólo uso para eventos críticos</td>
+                </tr>
+                <tr>
+                  <td>Proyectos conjuntos</td>
+                  <td>Teams (canales por proyecto)</td>
+                  <td>Según cronograma</td>
+                  <td>Directores involucrados</td>
+                  <td>Se crean canales exclusivos para seguimiento</td>
+                </tr>
+                <tr>
+                  <td>Legal y recursos</td>
+                  <td>Outlook</td>
+                  <td>A solicitud</td>
+                  <td>Reese Miller / Rubí Cobos</td>
+                  <td>Temas de cumplimiento o RRHH van por correo formal</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="proceso" id="direccion">
+          <h3>Dirección</h3>
+
+          <!-- Recurso Humano -->
+          <div id="direccion-rh" class="recurso-anchor">
+            <h4><i class="fa fa-users"></i> Recurso Humano</h4>
+            <p>En Technomonster, Inc., los supervisores cumplen un rol clave en el acompañamiento continuo del personal.
+              Cada supervisor guía a su equipo mediante instrucciones claras, revisión de metas semanales y
+              retroalimentación personalizada. También implementan mentorías para nuevos empleados y sesiones de
+              resolución de problemas en tiempo real, fomentando así un ambiente de crecimiento y mejora constante.</p>
+          </div>
+
+          <!-- Recurso Financiero -->
+          <div id="direccion-rf" class="recurso-anchor">
+            <h4><i class="fa fa-dollar-sign"></i> Recurso Financiero</h4>
+            <p>Los financieros aseguran el uso correcto del presupuesto asignado a cada departamento. Se revisan
+              los informes mensuales y si hay desviaciones, se convocan juntas internas para ajustar gastos, redirigir
+              fondos
+              autorizados o suspender temporalmente actividades secundarias. Las decisiones siempre se alinean al
+              presupuesto
+              anual aprobado.</p>
+          </div>
+
+          <!-- Recurso Material -->
+          <div id="direccion-rm" class="recurso-anchor">
+            <h4><i class="fa fa-cubes"></i> Recurso Material</h4>
+            <p>En el laboratorio de investigación y otras áreas, al final de cada jornada se inspecciona que todo el
+              equipo esté limpio, funcional y almacenado correctamente. Existe una bitácora de uso por empleado y se
+              reportan daños o anomalías en el momento para darles solución inmediata, evitando pérdida o deterioro.</p>
+          </div>
+
+          <!-- Recurso Tecnológico -->
+          <div id="direccion-rt" class="recurso-anchor">
+            <h4><i class="fa fa-microchip"></i> Recurso Tecnológico</h4>
+            <p>El equipo de TICs realiza verificaciones diarias del funcionamiento del software y hardware utilizados.
+              Además, se realizan mantenimientos programados semanalmente y se da soporte inmediato en caso de fallos.
+              Las estaciones de trabajo deben estar actualizadas y protegidas mediante sistemas de seguridad digital.
+            </p>
+          </div>
+
+          <!-- Recurso Información -->
+          <div id="direccion-ri" class="recurso-anchor">
+            <h4><i class="fa fa-info-circle"></i> Recurso Información</h4>
+            <p>Los supervisores mantienen una comunicación fluida con sus equipos, compartiendo información relevante
+              como: avances del proyecto, objetivos semanales, ajustes operativos y retroalimentación de clientes. Se
+              utilizan herramientas digitales para compartir información clara y útil en tiempo real.</p>
+          </div>
+        </div>
+
+
+        <!-- Sección de Control -->
+        <div class="proceso" id="control">
+          <h3>Control</h3>
+
+          <!-- Recurso Humano -->
+          <div id="control-rh" class="recurso-anchor">
+            <h4><i class="fa fa-users"></i> Recurso Humano</h4>
+            <p>El desempeño de los empleados se evalúa trimestralmente mediante indicadores como: cumplimiento de
+              objetivos, calidad del trabajo, innovación y colaboración. Se aplican encuestas de satisfacción interna,
+              revisiones y los resultados se discuten en entrevistas individuales con planes de mejora personalizados si
+              es necesario.</p>
+          </div>
+
+          <!-- Recurso Financiero -->
+          <div id="control-rf" class="recurso-anchor">
+            <h4><i class="fa fa-dollar-sign"></i> Recurso Financiero</h4>
+            <p>TECHNOMONSTERS, Inc. distribuye un presupuesto anual de $50,000,000 entre sus departamentos, destacando
+              áreas como Innovación y Desarrollo, que recibe $18,000,000 (36%), Recursos Humanos con $9,000,000 (18%) y
+              Mercadotecnia con $11,000,000 (22%). Otros departamentos incluyen Finanzas con $2,500,000 (5%),
+              Mantenimiento con $2,500,000 (5%), Tecnologías de la Información (TICs) con $3,500,000 (7%), Jurídico con
+              $1,000,000 (2%) y un Fondo de reserva e imprevistos con $2,500,000 (5%). Al cierre del ejercicio fiscal,
+              se realiza una auditoría para comparar el gasto real con lo presupuestado, utilizando indicadores clave
+              como variación, eficiencia y cumplimiento por rubro. Ante desviaciones, se emiten alertas, se justifican
+              los cambios y se ajustan las proyecciones para el siguiente año.</p>
+          </div>
+
+          <!-- Recurso Material -->
+          <div id="control-rm" class="recurso-anchor">
+            <h4><i class="fa fa-cubes"></i> Recurso Material</h4>
+            <p>Se aplican estándares de calidad y vida útil por cada tipo de material (sensores, prototipos, reactivos).
+              Si un material no cumple con los estándares o se detecta obsolescencia, se retira de uso, se desecha de
+              forma segura o se repara. Se lleva control en inventarios digitales con códigos QR para trazabilidad.</p>
+          </div>
+
+          <!-- Recurso Tecnológico -->
+          <div id="control-rt" class="recurso-anchor">
+            <h4><i class="fa fa-microchip"></i> Recurso Tecnológico</h4>
+            <p>Los sistemas tecnológicos se supervisan con métricas de rendimiento: velocidad, funcionalidad,
+              compatibilidad y seguridad. El software se actualiza trimestralmente y el hardware se renueva cada 2 años.
+              Si un equipo falla o no cumple los estándares, se reemplaza o se lleva a mantenimiento inmediato.</p>
+          </div>
+
+          <!-- Recurso Información -->
+          <div id="control-ri" class="recurso-anchor">
+            <h4><i class="fa fa-info-circle"></i> Recurso Información</h4>
+            <p>La información se evalúa con base en su utilidad, veracidad y oportunidad. Los supervisores analizan
+              semanalmente si la comunicación ha sido clara y útil para la toma de decisiones. Se eliminan redundancias,
+              se prioriza lo esencial y se optimizan los canales de comunicación según retroalimentación interna.</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- FIN DE LA PAGINA PRINCIPAL -->
+  </main>
+  <audio id="bg-music" loop>
+    <source src="audio.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+
+  <script>
+    // Espera el primer clic del usuario para iniciar la música
+    document.addEventListener('DOMContentLoaded', () => {
+      const music = document.getElementById("bg-music");
+
+      const startMusic = () => {
+        music.play().then(() => {
+          console.log("✅ Música iniciada");
+        }).catch((err) => {
+          console.warn("⚠️ El navegador bloqueó el autoplay:", err);
+        });
+      };
+
+      // Cualquier clic en la página lo activa
+      window.addEventListener("click", startMusic, { once: true });
+    });
+  </script>
+
+
+
+
+  <!-- SCRIPT CARRUSEL DE ORGANIGRAMA -->
+  <script>
+    let indiceCarrusel = 0;
+    const imagenes = document.getElementsByClassName("carrusel-img");
+
+    function mostrarImagen(index) {
+      for (let i = 0; i < imagenes.length; i++) {
+        imagenes[i].style.display = "none";
+      }
+      imagenes[index].style.display = "block";
+    }
+
+    function moverCarrusel(direccion) {
+      indiceCarrusel = (indiceCarrusel + direccion + imagenes.length) % imagenes.length;
+      mostrarImagen(indiceCarrusel);
+    }
+    // Cambio automático cada 5 segundos
+    setInterval(() => {
+      moverCarrusel(1);
+    }, 10000);
+  </script>
+
+  <!-- Swiper JS -->
+
+  <!--<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>-->
+  <!--<script src="app.js"></script>-->
+
+
+  <!-- PIE DE PAGINA -->
+  <footer>
+    <p>&copy; 2025 Technomonsters, Inc. | Todos los derechos reservados.</p>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/technomonsters" target="_blank">Facebook</a>
+      <a href="https://www.twitter.com/technomonsters" target="_blank">Twitter</a>
+      <a href="https://www.instagram.com/technomonsters" target="_blank">Instagram</a>
+    </div>
+  </footer>
+</body>
+
+</html>

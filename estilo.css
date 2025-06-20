@@ -1,7 +1,7 @@
 /* Cargar fuentes personalizadas */
 @font-face {
   font-family: 'Monster AC';
-  src: url('Monster AG.ttf') format('opentype');
+  src: url('Monster_AG.ttf') format('opentype');
 }
 
 @font-face {

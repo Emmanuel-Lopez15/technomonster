@@ -1,12 +1,12 @@
 /* Cargar fuentes personalizadas */
 @font-face {
   font-family: 'Monster AC';
-  src: url('../fuentes/Monster AG.ttf') format('opentype');
+  src: url('../Monster AG.ttf') format('opentype');
 }
 
 @font-face {
   font-family: 'Space Comics';
-  src: url('../fuentes/KGInimitableOriginal.ttf') format('opentype');
+  src: url('../KGInimitableOriginal.ttf') format('opentype');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'Creato Display';
-  src: url('../fuentes/CreatoDisplay-Regular.otf') format('opentype');
+  src: url('../CreatoDisplay-Regular.otf') format('opentype');
 }
 
 :root {
